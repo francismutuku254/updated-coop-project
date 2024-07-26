@@ -1,0 +1,334 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+  
+    
+}
+.loader{
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.img2 img{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.loading{
+     height: 60px;
+     width: 60px;
+     border: 15px solid #45474b;
+     border-top-color: #2a88e6;
+     position: absolute;
+     margin: auto;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     border-radius: 50%;
+     animation: spin 1.5s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.whole{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.nav ul{
+    list-style: none;
+    /* text-align: center; */
+    
+}
+.nav nav{
+    height: 40px;
+
+    
+}
+.nav li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 15px;
+    color: black;
+    height: 30px;
+    padding-top: 8px;
+    margin-top: -50px;
+    
+    
+    
+}
+#sign:hover{
+    background-color: white;
+
+}
+#sign button{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 80px;
+    height: 30px;
+
+}
+#sign button:hover{
+  
+    cursor: pointer;
+}
+.nav li:hover{
+    background-color: rgb(19, 128, 0);
+    
+}
+.nav li a{
+    text-decoration: none;
+    display: block;
+    height: 30px;
+}
+.nav li a:hover{
+    color: white;
+    
+}
+/* header button{
+    background-color: black;
+    color: white;
+    margin-left: 1200px;
+    border-radius: 20px;
+    
+} */
+.main{
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    
+}
+.logo img{
+    padding-top: 17px;
+
+}
+
+
+.nav2 li{
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 25px;
+
+}
+#accounts{
+    margin-left: 500px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+}
+.nav2 ul{
+    margin-top: -35px;
+    height: 70px;
+}
+.nav2 li{
+    height: 70px;
+    
+}
+.nav2 li a{
+    height: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+    
+}
+.nav2 a:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+.content{
+    margin-left: 700px;
+    height: 600px;
+    width: 650px;
+    overflow: hidden;
+   
+}
+
+.sliderframe {
+   
+    width: 650px;
+    height: 600px;
+    display: flex;
+    animation: slide 12s infinite;
+
+  
+    
+
+}
+.slider img{
+    height:600px;
+    width: 650px;
+    position: relative;
+    
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    82%{
+        transform: translateX(-300%);
+    }
+}
+.content2{
+    background-color:#c0c0c0;
+    width: 700px;
+    margin-top: -621px;
+    height: 600px;
+    margin-bottom: 80px;
+}
+.content2 h2 {
+    margin-left: 100px;
+    /* margin-bottom: 200px; */
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight:bold;
+    
+
+}
+.parag h2{
+    color: green;
+    text-align: center;
+}
+.parag2{
+    margin-bottom: 50px;
+}
+.parag2 p{
+    margin-left: 200px;
+    font-size: large;
+}
+/* .pic{
+    height: 50px;
+    width: 50px;
+   
+} */
+
+footer{
+    margin-top: 20px;
+}
+.about{
+    margin-left: 50px;
+}
+.about h3{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.about ul{
+    list-style: none;
+   
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+.about a:hover{
+    color: blue;
+}
+.quick{
+    margin-left: 500px;
+    margin-top: -145px;
+}
+.quick h3{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.quick ul{
+    list-style: none;
+}
+.quick a{
+    text-decoration: none;
+    color: black;
+}
+.quick a:hover{
+    color: blue;
+}
+.contacts{
+    margin-left: 900px;
+    margin-top: -180px;
+}
+.contacts h3{
+    margin-left: 50px;
+}
+.contacts ul{
+    list-style: none;
+}
+.contacts a{
+    text-decoration: none;
+}
+.contacts li{
+    display: inline-block;
+}
+#instagram  {
+    width: 50px;
+    height: 50px;
+}
+#whatsapp{
+    width: 50px;
+    height: 50px;
+}
+#youtube{
+    width: 50px;
+    height: 50px;
+}
+#twitter{
+    width: 50px;
+    height: 50px;
+}
+#tiktok{
+    width: 50px;
+    height: 50px;
+}
+#insta{
+    width: 50px;
+    height: 50px;
+}
+
+.final{
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color:black;
+}
+.final p{
+    display: inline-block;
+    color: white;
+    padding-top: 50px;
+}
+#codes{
+    margin-left: 170px;
+}
+span{
+    color: green;
+  
+    
+}
